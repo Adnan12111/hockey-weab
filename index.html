@@ -7,13 +7,120 @@
     
 <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+    *{
+        font-family: 'Manrope', sans-serif;
+    }
+</style>
 </head>
 <body>
-    <header>
-        
-    </header>
-    <main>
+    <header class="container mx-auto">
+        <nav>
 
+        </nav>
+        <!-- banner or slaider -->
+        <div class="carousel w-full ">
+            <div id="slide1" class="carousel-item relative w-full">
+              <img src="Images/1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn bg-black text-white btn-circle">❮</a> 
+                <a href="#slide2" class="btn bg-black text-white btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="Images/4.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn bg-black text-white btn-circle">❮</a> 
+                <a href="#slide3" class="btn bg-black text-white btn-circle">❯</a>
+              </div>
+
+            </div> 
+            <!-- Despite winning the 1966 Memorial Cup, the Edmonton Oil Kings' owner, Bill Hunter, was growing concerned about the state of junior hockey in western Canada.  -->
+            
+          
+          </div>
+          <hr class="w-full mt-28 ">
+          
+    </header>
+    <main class="container mx-auto">
+        <!-- Professional Hockeys Club section -->
+        <section>
+            <h3 class="text-4xl font-extrabold text-center mt-10">Professional Hockeys Club</h3>
+            <p class="text-center text-lg mt-6 lg:w-[600px] mx-auto">The National Hockey League was established in 1917 as the successor to the National Hockey Association (NHA). Founded in 1909, the NHA began play in 1910 with seven teams in Ontario and Quebec, and was one of the first major leagues in professional ice hockey. </p>
+            <div class=" flex flex-col lg:flex-row justify-center gap-[150px] mt-[100px]">
+                <div class="flex flex-col justify-center items-center">
+                    <div class="radial-progress text-red-700 " style="--value:74;" role="progressbar">74%</div>
+                    <h3 class="text-xl font-semibold">Prayer Facility</h3>
+                    <p class="w-[250px] font-light text-center ">he National Hockey Association (NHA), </p>
+
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    <div class="radial-progress" style="--value:50;" role="progressbar">50%</div>
+                    <h3 class="text-xl font-semibold">Experienced Coach</h3>
+                    <p class="w-[250px] font-light text-center">As each game is given great importance, a coach will analyse</p>
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    <div class="radial-progress text-blue-400" style="--value:85;" role="progressbar">85%</div>
+                    <h3 class="text-xl font-semibold">Senior Player</h3>
+                    <p class="w-[250px] font-light text-center">senior player is vary effactive in every team</p>
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    <div class="radial-progress text-orange-700" style="--value:80;" role="progressbar">80%</div>
+                    <h3 class="text-xl font-semibold">Training Ground</h3>
+                    <p class="w-[250px] font-light text-center">a ideal play ground is vary importent in tranning</p>
+
+                </div>
+               
+            </div>
+        </section>
+
+<!-- Program Sections -->
+        
+        <section class="mt-28">
+            <h3 class="text-4xl font-extrabold text-center">Program Sections</h3>
+            <p class="text-center lg:w-[700px] mx-auto">The National Hockey League was organized at the Windsor Hotel in Montreal on November 26, 1917, after the suspension of operations of its predecessor organization</p>
+           <div class="flex flex-col lg:flex-row gap-6 mt-12">
+            <div class="hero h-[350px] rounded-xl" style="background-image: url(Images/2.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-left text-neutral-content">
+                  <div class="max-w-md">
+                    <h1 class="mb-5 text-5xl font-extrabold">Junior Program</h1>
+                    <p class="mb-5">In more recent history, the word "hockey" is used in reference to either the summer Olympic sport of field hockey, which is a stick and ball game, and the winter ice team skating sports of bandy and ice hockey.</p>
+                    <button class="btn bg-orange-600 text-white">Register Now!</button>
+                  </div>
+                </div>
+              </div>
+            <div class="hero h-[350px] rounded-xl" style="background-image: url(Images/3.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-left text-neutral-content">
+                  <div class="max-w-md">
+                    <h1 class="mb-5 text-5xl font-extrabold">Junior Program</h1>
+                    <p class="mb-5">In more recent history, the word "hockey" is used in reference to either the summer Olympic sport of field hockey, which is a stick and ball game, and the winter ice team skating sports of bandy and ice hockey.</p>
+                    <button class="btn bg-orange-600 text-white">Register Now!</button>
+                  </div>
+                </div>
+              </div>
+           </div>
+            <div class="mt-6">
+                <div class="hero h-[350px] rounded-xl" style="background-image: url(Images/4.png);">
+                    <div class="hero-overlay bg-opacity-60"></div>
+                    <div class="hero-content text-left text-neutral-content">
+                      <div class="max-w-md">
+                        <h1 class="mb-5 text-5xl font-extrabold">Junior Program</h1>
+                        <p class="mb-5">Despite winning the 1966 Memorial Cup, the Edmonton Oil Kings' owner, Bill Hunter, was growing concerned about the state of junior hockey in western Canada.</p>
+                        <button class="btn btn-primary bg-orange-600">Register Now!</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <hr class="mt-12">
+
+        <!-- Our New Products section -->
+        
     </main>
     <footer>
 
