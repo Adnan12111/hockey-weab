@@ -19,8 +19,41 @@
 </head>
 <body>
     <header class="container mx-auto">
-        <nav>
-
+        <nav class="mt-10 mb-16">
+          <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li class="text-red-500 text-xl "><a>Home</a></li>
+                  <li class="text-black text-xl "><a>About</a></li>
+                  <li class="text-black text-xl "><a>Pages</a></li>
+                  <li class="text-black text-xl ">
+                   <a href="">Blog</a>
+                  </li>
+                  <li class="text-black text-xl "><a>Contact</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-xl lg:text-4xl font-extrabold">Hockey<span class="text-red-600">’</span>s</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li class="text-red-500 text-xl "><a>Home</a></li>
+                <li class="text-black text-xl "><a>About</a></li>
+                <li class="text-black text-xl "><a>Pages</a></li>
+                <li class="text-black text-xl">
+                 <a href="">Blog</a>
+                </li>
+                <li class="text-black text-xl "><a>Contact</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end flex flex-row gap-4">
+              <i class="fa-solid text-xl lg:text-2xl  fa-magnifying-glass"></i>
+              <a class="btn bg-black text-white text-xl  lg:text-2xl ">Get Ticket</a>
+            </div>
+          </div>
         </nav>
         <!-- banner or slaider -->
         <div class="carousel w-full ">
@@ -37,12 +70,14 @@
                 <a href="#slide1" class="btn bg-black text-white btn-circle">❮</a> 
                 <a href="#slide3" class="btn bg-black text-white btn-circle">❯</a>
               </div>
-
+              
             </div> 
-            <!-- Despite winning the 1966 Memorial Cup, the Edmonton Oil Kings' owner, Bill Hunter, was growing concerned about the state of junior hockey in western Canada.  -->
+            
             
           
           </div>
+         
+         
           <hr class="w-full mt-28 ">
           
     </header>
@@ -81,26 +116,26 @@
 <!-- Program Sections -->
         
         <section class="mt-28">
-            <h3 class="text-4xl font-extrabold text-center">Program Sections</h3>
+            <h3 class="text-4xl font-extrabold text-center mb-6">Program Sections</h3>
             <p class="text-center lg:w-[700px] mx-auto">The National Hockey League was organized at the Windsor Hotel in Montreal on November 26, 1917, after the suspension of operations of its predecessor organization</p>
-           <div class="flex flex-col lg:flex-row gap-6 mt-12">
+           <div class="flex flex-col  lg:flex-row gap-6 mt-12">
             <div class="hero h-[350px] rounded-xl" style="background-image: url(Images/2.png);">
                 <div class="hero-overlay bg-opacity-60"></div>
-                <div class="hero-content text-left text-neutral-content">
-                  <div class="max-w-md">
-                    <h1 class="mb-5 text-5xl font-extrabold">Junior Program</h1>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="max-w-md ">
+                    <h1 class="mb-5 text-5xl  font-extrabold">Junior Program</h1>
                     <p class="mb-5">In more recent history, the word "hockey" is used in reference to either the summer Olympic sport of field hockey, which is a stick and ball game, and the winter ice team skating sports of bandy and ice hockey.</p>
-                    <button class="btn bg-orange-600 text-white">Register Now!</button>
+                    <button class="btn bg-orange-600 border-0 text-white text-xl font-bold">Register Now!</button>
                   </div>
                 </div>
               </div>
             <div class="hero h-[350px] rounded-xl" style="background-image: url(Images/3.png);">
                 <div class="hero-overlay bg-opacity-60"></div>
-                <div class="hero-content text-left text-neutral-content">
+                <div class="hero-content text-center text-neutral-content">
                   <div class="max-w-md">
-                    <h1 class="mb-5 text-5xl font-extrabold">Junior Program</h1>
+                    <h1 class="mb-5 text-5xl font-extrabold">Teenager Program</h1>
                     <p class="mb-5">In more recent history, the word "hockey" is used in reference to either the summer Olympic sport of field hockey, which is a stick and ball game, and the winter ice team skating sports of bandy and ice hockey.</p>
-                    <button class="btn bg-orange-600 text-white">Register Now!</button>
+                    <button class="btn bg-orange-600 border-0 text-white text-xl font-bold">Register Now!</button>
                   </div>
                 </div>
               </div>
@@ -108,11 +143,11 @@
             <div class="mt-6">
                 <div class="hero h-[350px] rounded-xl" style="background-image: url(Images/4.png);">
                     <div class="hero-overlay bg-opacity-60"></div>
-                    <div class="hero-content text-left text-neutral-content">
+                    <div class="hero-content text-center text-neutral-content">
                       <div class="max-w-md">
-                        <h1 class="mb-5 text-5xl font-extrabold">Junior Program</h1>
+                        <h1 class="mb-5 text-5xl font-extrabold">Professional Program</h1>
                         <p class="mb-5">Despite winning the 1966 Memorial Cup, the Edmonton Oil Kings' owner, Bill Hunter, was growing concerned about the state of junior hockey in western Canada.</p>
-                        <button class="btn btn-primary bg-orange-600">Register Now!</button>
+                        <button class="btn border-0 text-white text-xl font-bold bg-orange-600">Register Now!</button>
                       </div>
                     </div>
                   </div>
@@ -131,7 +166,7 @@
                         <div class="flex flex-row  gap-5 ml-4">
                             <div class="flex flex-row gap-2 ">
                                 <i class="fa-solid text-amber-600 fa-star"></i>
-                                <p>5.0</p>
+                                <p>3.4</p>
                             </div>
                             <div class="flex flex-row gap-2 ">
                                 <i class="fa-solid text-gray-700 fa-eye"></i>
@@ -146,7 +181,7 @@
                           <h2 class="card-title mt-3">jacket</h2>
                           <p class="mt-3">Our jacket is equipped with advanced insulation technology that ensures </p>
                           <div class="flex flex-row gap-4 mt-4">
-                            <h3 class="text-xl font-extrabold text-red-500">Price - $22.00</h3>
+                            <h3 class="text-xl font-extrabold text-red-500">Price - $12.00</h3>
                             <div class="flex flex-row gap-2"> 
                                 <i class="fa-solid text-gray-500 fa-cart-shopping"></i>
                                 <p class="text-gray-500">Delivery Fee : Free</p>
@@ -161,7 +196,7 @@
                         <div class="flex flex-row  gap-5 ml-4">
                             <div class="flex flex-row gap-2 ">
                                 <i class="fa-solid text-amber-600 fa-star"></i>
-                                <p>5.0</p>
+                                <p>3.0</p>
                             </div>
                             <div class="flex flex-row gap-2 ">
                                 <i class="fa-solid text-gray-700 fa-eye"></i>
@@ -176,7 +211,7 @@
                           <h2 class="card-title mt-3">World Cup Flags Football</h2>
                           <p class="mt-3">Our Flags is equipped with advanced insulation technology that ensures </p>
                           <div class="flex flex-row gap-4 mt-4">
-                            <h3 class="text-xl font-extrabold text-red-500">Price - $22.00</h3>
+                            <h3 class="text-xl font-extrabold text-red-500">Price - $82.00</h3>
                             <div class="flex flex-row gap-2"> 
                                 <i class="fa-solid text-gray-500 fa-cart-shopping"></i>
                                 <p class="text-gray-500">Delivery Fee : Free</p>
@@ -191,7 +226,7 @@
                         <div class="flex flex-row  gap-5 ml-4">
                             <div class="flex flex-row gap-2 ">
                                 <i class="fa-solid text-amber-600 fa-star"></i>
-                                <p>5.0</p>
+                                <p>4.8</p>
                             </div>
                             <div class="flex flex-row gap-2 ">
                                 <i class="fa-solid text-gray-700 fa-eye"></i>
@@ -206,7 +241,7 @@
                           <h2 class="card-title mt-3">Cap For Hockeys</h2>
                           <p class="mt-3">Our caps is equipped with advanced insulation technology that ensures </p>
                           <div class="flex flex-row gap-4 mt-4">
-                            <h3 class="text-xl font-extrabold text-red-500">Price - $22.00</h3>
+                            <h3 class="text-xl font-extrabold text-red-500">Price - $292.00</h3>
                             <div class="flex flex-row gap-2"> 
                                 <i class="fa-solid text-gray-500 fa-cart-shopping"></i>
                                 <p class="text-gray-500">Delivery Fee : Free</p>
@@ -221,7 +256,7 @@
                         <div class="flex flex-row  gap-5 ml-4">
                             <div class="flex flex-row gap-2 ">
                                 <i class="fa-solid text-amber-600 fa-star"></i>
-                                <p>5.0</p>
+                                <p>4.5</p>
                             </div>
                             <div class="flex flex-row gap-2 ">
                                 <i class="fa-solid text-gray-700 fa-eye"></i>
@@ -450,7 +485,7 @@
             </div>
             <label class="form-control w-full max-w-xs">
               <div class="label">
-                <span class="label-text font-extrabold">Message</span>
+                <span class="label-text font-extrabold mt-6 mb-4">Message</span>
                 
               </div>
               <input type="text" placeholder="Type here" class="input input-bordered pb-[300px] pt-4 lg:w-[600px] " />
@@ -489,7 +524,7 @@
       </nav> 
    <div class="flex flex-row justify-center lg:flex-row gap-20 ">
    
-    <nav>
+    <nav class="ml-10">
       <header class="footer-title text-white font-extrabold mb-5">Company</header> 
       <p class="mb-5">About us</p>
       <p class="mb-5">Contact</p>
@@ -497,7 +532,7 @@
      <p class="mb-5">Press kit</p>
     </nav>
    
-    <nav>
+    <nav >
       <header class="footer-title text-white font-extrabold mb-5">Support</header> 
       <p class="mb-5">Help Center</p>
       <p class="mb-5">FAQ</p>
@@ -506,7 +541,7 @@
     </nav>
    </div>
  
-      <nav>
+      <nav class="ml-20">
         <header class="footer-title text-white font-extrabold text-center">Services</header> 
         <a class="link link-hover">Academy</a>
         <a class="link link-hover">Group Lesso</a>
